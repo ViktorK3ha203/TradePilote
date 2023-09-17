@@ -1,0 +1,7 @@
+node_modules
+./node_modules/*
+build/
+.idea
+!/config/build
+!/dist/build
+!/dist/config/build
