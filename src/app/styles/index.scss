@@ -10,4 +10,43 @@
     color: var(--primary-color);
 
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1400px;
+    width: 100%;
+    gap: 20px;
+    margin: 20px;
+    padding: 0 20px;
+    a {
+        font: var(--font-l);
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.theme-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--bg-indigo);
+    color: var(--text-white);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
 }

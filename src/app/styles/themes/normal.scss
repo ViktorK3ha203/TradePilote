@@ -1,6 +1,13 @@
 .app.light {
-    --bg-color: #e8e8ea;
+    --bg-color: rgba(255, 255, 255, 0.587);
+    ;
 
-    --primary-color: #0232c2;
-    --seconddary-color: #0449e0;
+    --primary-color: rgb(31, 31, 31);
+    --seconddary-color: rgb(69, 70, 73);
+}
+
+.header {
+    a {
+        color: var(--primary-color);
+    }
 }

@@ -1,6 +1,14 @@
 .app.dark {
-    --bg-color: #0e0e75;
+    --bg-color: rgb(25, 31, 39);
 
-    --primary-color: #049604;
-    --seconddary-color: #04ff04;
+    --primary-color: rgb(184, 191, 207);
+    --seconddary-color: rgb(241, 241, 241);
+    --theme-switcher-color:
+        --theme-switcher-background:
+}
+
+.header {
+    a {
+        color: var(--primary-color);
+    }
 }
